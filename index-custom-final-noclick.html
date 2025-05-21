@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>Orb Seoul Music</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .mapboxgl-popup {
+            max-width: 180px;
+            min-width: 100px;
+            border-radius: 8px;
+        }
+
+        .mapboxgl-popup-content {
+            text-align: center;
+            font-family: 'pretendard', sans-serif;
+            padding: 8px 12px;
+            border-radius: 8px;
+            gap: 4px;
+            text-align: left;
+        }
+
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            margin: 0;
+            
+            white-space: nowrap;         /* 줄바꿈 없이 한 줄로 표시 */
+            overflow: hidden;            /* 넘치는 부분 숨김 */
+            text-overflow: ellipsis;     /* 말줄임표 (...) 표시 */
+        }
+
+        p {
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 20px;
+            margin: 2px 0 0 0;
+        }
+
+        div {
+            font-family: 'pretendard', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .mapboxgl-popup-close-button {
+            display: none;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoibWluaHllb25na2ltIiwiYSI6ImNtYWRsNzA5ZTBld3Iya29uNG80MnFhZnMifQ.JwmMpGd-0shCxK5Q0JqgAQ';
+
+        //code from step 5 will go here
+    
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/minhyeongkim/cmaw6rmxu000n01rc9dqcervr',
+            center: [126.977347, 37.565081],
+            zoom: 12
+        });
+      fetch('https://minhyeong-muca.github.io/seoul-music-map/seoul-music-users-korean.geojson')
+        .then(res => res.json())
+        .then(data => {
+          const markers = [];
+
+          function updateZoomVisibility() {
+            const zoom = map.getZoom();
+            markers.forEach(({ popup, label }) => {
+              if (zoom >= 14) {
+                popup.addTo(map);
+                label.style.display = 'block';
+              } else {
+                popup.remove();
+                label.style.display = 'none';
+              }
+            });
+          }
+
+          data.features.forEach(feature => {
+            const coordinates = feature.geometry.coordinates;
+            const title = feature.properties.title;
+            const artist = feature.properties.artist;
+            const userId = feature.properties.user_id;
+
+            const popup = new mapboxgl.Popup({ offset: 25 })
+              .setLngLat(coordinates)
+              .setHTML(`<h3>${title}</h3><p>${artist}</p>`);
+
+            const el = document.createElement('div');
+            el.className = 'marker';
+            el.style.width = '24px';
+            el.style.height = '24px';
+            el.style.backgroundColor = 'red';
+            el.style.borderRadius = '50%';
+            el.style.cursor = 'pointer';
+            el.style.position = 'relative';
+
+            const label = document.createElement('div');
+            label.textContent = `@${userId}`;
+            label.style.position = 'absolute';
+            label.style.top = '100%';
+            label.style.left = '50%';
+            label.style.transform = 'translateX(-50%)';
+            label.style.whiteSpace = 'nowrap';
+            label.style.background = 'rgba(255, 255, 255, 0.6)';
+            label.style.backdropFilter = 'blur(6px)';
+            label.style.padding = '2px 6px';
+            label.style.borderRadius = '8px';
+            label.style.fontSize = '12px';
+            label.style.marginTop = '4px';
+            label.style.display = 'none';
+
+            el.appendChild(label);
+
+            const marker = new mapboxgl.Marker(el)
+              .setLngLat(coordinates)
+              .addTo(map);
+
+            markers.push({ popup, label });
+          });
+
+          map.on('zoom', updateZoomVisibility);
+          updateZoomVisibility();
+        });
+
+
+      //code from step 6 will go here
+
+        /* Add an event listener that runs when a user clicks on the map element. */
+        // 전역 변수로 라벨 DOM 요소 추적
+        
+        let activeLabel = null;
+        let activeMarker = null;
+
+        
+
+            if (!features.length) {
+                // 다른 곳 클릭 시 기존 라벨 제거
+                if (activeLabel && activeMarker) {
+                    activeMarker.remove(); // 마커 통째로 제거
+                    activeLabel = null;
+                    activeMarker = null;
+                }
+                return;
+            }
+
+            const feature = features[0];
+
+            // 기존 라벨 제거
+            if (activeLabel && activeMarker) {
+                activeMarker.remove();
+                activeLabel = null;
+                activeMarker = null;
+            }
+
+            // 팝업 생성
+            const popup = new mapboxgl.Popup({ offset: [0, -20] })
+                .setLngLat(feature.geometry.coordinates)
+                .setHTML(
+                `<h3>${feature.properties.title}</h3><p>${feature.properties.artist}</p>`
+                )
+                .addTo(map);
+
+            // 마커 생성
+            const el = document.createElement('div');
+            el.className = 'marker';
+            el.style.width = '24px';
+            el.style.height = '24px';
+            el.style.backgroundImage = 'url(your-marker-icon.png)';
+            el.style.backgroundSize = 'cover';
+
+            // 라벨 생성
+            const label = document.createElement('div');
+            label.textContent = `@${feature.properties.user_id}`;
+            label.style.position = 'absolute';
+            label.style.top = '100%';
+            label.style.left = '50%';
+            label.style.transform = 'translateX(-50%)';
+            label.style.whiteSpace = 'nowrap';
+            label.style.background = 'rgba(255, 255, 255, 0.5)';
+            label.style.backdropFilter = 'blur(3px)';             // 블러 효과
+            label.style.webkitBackdropFilter = 'blur(3px)';       // Safari 호환성
+            label.style.padding = '2px 6px';
+            label.style.borderRadius = '8px';
+            label.style.fontSize = '12px';
+            //label.style.boxShadow = '0 2px 4px rgba(0,0,0,0.15)';
+            label.style.marginTop = '10px';
+
+            el.appendChild(label);
+
+            const marker = new mapboxgl.Marker(el)
+                .setLngLat(feature.geometry.coordinates)
+                .addTo(map);
+
+            // 현재 라벨, 마커 기억해둠
+            activeLabel = label;
+            activeMarker = marker;
+    </script>
+  
+  <img id="overlayImage" src="https://minhyeong-muca.github.io/seoul-music-map/Map_Zoom.png" style="
+    display: none;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    object-fit: cover;
+  " />
+
+  <script>
+    const overlay = document.getElementById('overlayImage');
+
+    function handleOverlayZoom() {
+      const zoom = map.getZoom();
+      if (zoom >= 16) {
+        overlay.style.display = 'block';
+        map.getCanvas().style.opacity = 0;
+      } else {
+        overlay.style.display = 'none';
+        map.getCanvas().style.opacity = 1;
+      }
+    }
+
+    map.on('zoom', handleOverlayZoom);
+    handleOverlayZoom(); // 초기 호출
+  </script>
+
+</body>
+</html>
