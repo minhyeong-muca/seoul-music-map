@@ -79,7 +79,7 @@
 
             const popup = new mapboxgl.Popup({ offset: [0, -20] })
               .setLngLat(coordinates)
-              .setHTML(`<h3>${title}</h3><p>${artist}</p>`)
+              .setHTML(`<h3>${feature.geometry.title}</h3><p>${feature.geometry.artist}</p>`)
               .addTo(map);
 
             const el = document.createElement('div');
@@ -91,25 +91,25 @@
             el.style.position = 'relative';
 
             const label = document.createElement('div');
-            label.textContent = `@${userId}`;
+            label.textContent = `@${feature.properties.userId}`;
             label.style.position = 'absolute';
             label.style.top = '100%';
             label.style.left = '50%';
             label.style.transform = 'translateX(-50%)';
             label.style.whiteSpace = 'nowrap';
-            label.style.background = 'rgba(255, 255, 255, 0.4)';
-            label.style.backdropFilter = 'blur(6px)';
-            label.style.webkitBackdropFilter = 'blur(6px)';
+            label.style.background = 'rgba(255, 255, 255, 0.5)';
+            label.style.backdropFilter = 'blur(3px)';
+            label.style.webkitBackdropFilter = 'blur(3px)';
             label.style.padding = '2px 6px';
             label.style.borderRadius = '8px';
             label.style.fontSize = '12px';
-            label.style.boxShadow = '0 2px 4px rgba(0,0,0,0.15)';
-            label.style.marginTop = '4px';
+            //label.style.boxShadow = '0 2px 4px rgba(0,0,0,0.15)';
+            label.style.marginTop = '10px';
 
             el.appendChild(label);
 
             new mapboxgl.Marker(el)
-              .setLngLat(coordinates)
+              .setLngLat(feature.geometry.coordinates)
               .setPopup(popup)
               .addTo(map);
           });
