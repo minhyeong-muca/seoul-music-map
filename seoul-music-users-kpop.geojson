@@ -1,0 +1,1805 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.028667,
+          37.526249
+        ]
+      },
+      "properties": {
+        "user_id": "쿨하트545",
+        "artist": "BIGBANG",
+        "title": "봄여름가을겨울"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.014991,
+          37.612718
+        ]
+      },
+      "properties": {
+        "user_id": "dreamyNova830",
+        "artist": "비오",
+        "title": "LOVE me"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99958,
+          37.491697
+        ]
+      },
+      "properties": {
+        "user_id": "echoNova",
+        "artist": "지코",
+        "title": "새삥"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.003514,
+          37.550714
+        ]
+      },
+      "properties": {
+        "user_id": "루나Glow",
+        "artist": "비오",
+        "title": "LOVE me"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.855907,
+          37.50145
+        ]
+      },
+      "properties": {
+        "user_id": "모던Velvet",
+        "artist": "백예린",
+        "title": "그건 아마 우리의 잘못은 아닐 거야"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.981485,
+          37.453351
+        ]
+      },
+      "properties": {
+        "user_id": "루나베베",
+        "artist": "나얼",
+        "title": "같은 시간 속의 너"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.848662,
+          37.534125
+        ]
+      },
+      "properties": {
+        "user_id": "밀크걸",
+        "artist": "윤하",
+        "title": "사건의 지평선"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.020739,
+          37.64458
+        ]
+      },
+      "properties": {
+        "user_id": "frostSunny",
+        "artist": "방탄소년단",
+        "title": "작은 것들을 위한 시"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.842793,
+          37.615429
+        ]
+      },
+      "properties": {
+        "user_id": "러블리하트",
+        "artist": "비오",
+        "title": "LOVE me"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.876836,
+          37.589015
+        ]
+      },
+      "properties": {
+        "user_id": "시크Nova",
+        "artist": "김광석",
+        "title": "서른 즈음에"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.920819,
+          37.485795
+        ]
+      },
+      "properties": {
+        "user_id": "비밀짱",
+        "artist": "세븐틴",
+        "title": "손오공"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.002901,
+          37.605686
+        ]
+      },
+      "properties": {
+        "user_id": "모던보이",
+        "artist": "이하이",
+        "title": "한숨"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.884564,
+          37.624354
+        ]
+      },
+      "properties": {
+        "user_id": "모던짱",
+        "artist": "르세라핌",
+        "title": "이브, 프시케 그리고 푸른 수염의 아내"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.840905,
+          37.60368
+        ]
+      },
+      "properties": {
+        "user_id": "비밀Dreamy",
+        "artist": "르세라핌",
+        "title": "이브, 프시케 그리고 푸른 수염의 아내"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02216,
+          37.551506
+        ]
+      },
+      "properties": {
+        "user_id": "novaDreamy",
+        "artist": "김광석",
+        "title": "서른 즈음에"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.884739,
+          37.490968
+        ]
+      },
+      "properties": {
+        "user_id": "dreamySunny",
+        "artist": "태연",
+        "title": "사계"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.013499,
+          37.548471
+        ]
+      },
+      "properties": {
+        "user_id": "dreamySunny744",
+        "artist": "이하이",
+        "title": "한숨"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.890477,
+          37.594668
+        ]
+      },
+      "properties": {
+        "user_id": "mintyBubble",
+        "artist": "나얼",
+        "title": "같은 시간 속의 너"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.004448,
+          37.557612
+        ]
+      },
+      "properties": {
+        "user_id": "블루Glow757",
+        "artist": "악동뮤지션",
+        "title": "후라이의 꿈"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.929692,
+          37.4619
+        ]
+      },
+      "properties": {
+        "user_id": "sugarMinty873",
+        "artist": "백예린",
+        "title": "그건 아마 우리의 잘못은 아닐 거야"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.881534,
+          37.550866
+        ]
+      },
+      "properties": {
+        "user_id": "시크Echo",
+        "artist": "태연",
+        "title": "사계"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.037023,
+          37.526188
+        ]
+      },
+      "properties": {
+        "user_id": "echoNova",
+        "artist": "비오",
+        "title": "LOVE me"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.805354,
+          37.504687
+        ]
+      },
+      "properties": {
+        "user_id": "쿨보이",
+        "artist": "방탄소년단",
+        "title": "작은 것들을 위한 시"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.853184,
+          37.561359
+        ]
+      },
+      "properties": {
+        "user_id": "sunnyEcho",
+        "artist": "BIGBANG",
+        "title": "봄여름가을겨울"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.916363,
+          37.543198
+        ]
+      },
+      "properties": {
+        "user_id": "블루베베",
+        "artist": "볼빨간사춘기",
+        "title": "여행"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.013867,
+          37.460211
+        ]
+      },
+      "properties": {
+        "user_id": "dreamyDreamy",
+        "artist": "아이브",
+        "title": "Kitsch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.043928,
+          37.599583
+        ]
+      },
+      "properties": {
+        "user_id": "모던Bubble8",
+        "artist": "뉴진스",
+        "title": "ETA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.934198,
+          37.565123
+        ]
+      },
+      "properties": {
+        "user_id": "비밀버터",
+        "artist": "아이브",
+        "title": "Kitsch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.930342,
+          37.450794
+        ]
+      },
+      "properties": {
+        "user_id": "블루Velvet",
+        "artist": "이무진",
+        "title": "신호등"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.819041,
+          37.506807
+        ]
+      },
+      "properties": {
+        "user_id": "스윗버터",
+        "artist": "윤하",
+        "title": "사건의 지평선"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.96441,
+          37.607693
+        ]
+      },
+      "properties": {
+        "user_id": "echoMinty",
+        "artist": "아이브",
+        "title": "Kitsch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978632,
+          37.513795
+        ]
+      },
+      "properties": {
+        "user_id": "스윗베베",
+        "artist": "윤하",
+        "title": "사건의 지평선"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.030396,
+          37.524489
+        ]
+      },
+      "properties": {
+        "user_id": "비밀Bubble324",
+        "artist": "이하이",
+        "title": "한숨"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99732,
+          37.497557
+        ]
+      },
+      "properties": {
+        "user_id": "frostDreamy",
+        "artist": "지코",
+        "title": "새삥"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.971129,
+          37.582525
+        ]
+      },
+      "properties": {
+        "user_id": "블루Sugar",
+        "artist": "김광석",
+        "title": "서른 즈음에"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.983313,
+          37.51167
+        ]
+      },
+      "properties": {
+        "user_id": "크림Sugar",
+        "artist": "윤하",
+        "title": "사건의 지평선"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.80317,
+          37.579909
+        ]
+      },
+      "properties": {
+        "user_id": "루나러버",
+        "artist": "임영웅",
+        "title": "사랑은 늘 도망가"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.89604,
+          37.649872
+        ]
+      },
+      "properties": {
+        "user_id": "블루Nova399",
+        "artist": "나얼",
+        "title": "같은 시간 속의 너"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.807327,
+          37.58293
+        ]
+      },
+      "properties": {
+        "user_id": "러블리Minty",
+        "artist": "이선희",
+        "title": "인연"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98176,
+          37.545359
+        ]
+      },
+      "properties": {
+        "user_id": "frostDreamy",
+        "artist": "BIGBANG",
+        "title": "봄여름가을겨울"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97304,
+          37.537404
+        ]
+      },
+      "properties": {
+        "user_id": "비밀Dreamy545",
+        "artist": "윤하",
+        "title": "사건의 지평선"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.946499,
+          37.500592
+        ]
+      },
+      "properties": {
+        "user_id": "스윗Dreamy",
+        "artist": "임영웅",
+        "title": "사랑은 늘 도망가"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.837125,
+          37.464933
+        ]
+      },
+      "properties": {
+        "user_id": "크림베베",
+        "artist": "뉴진스",
+        "title": "ETA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.033042,
+          37.455614
+        ]
+      },
+      "properties": {
+        "user_id": "bubbleSunny",
+        "artist": "이하이",
+        "title": "한숨"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02787,
+          37.543644
+        ]
+      },
+      "properties": {
+        "user_id": "블루Nova950",
+        "artist": "BIGBANG",
+        "title": "봄여름가을겨울"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.038986,
+          37.630754
+        ]
+      },
+      "properties": {
+        "user_id": "bubbleNova770",
+        "artist": "이선희",
+        "title": "인연"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.93956,
+          37.492221
+        ]
+      },
+      "properties": {
+        "user_id": "블루Sugar656",
+        "artist": "임영웅",
+        "title": "사랑은 늘 도망가"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.878539,
+          37.481752
+        ]
+      },
+      "properties": {
+        "user_id": "dreamySunny56",
+        "artist": "아이브",
+        "title": "Kitsch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.920557,
+          37.45967
+        ]
+      },
+      "properties": {
+        "user_id": "frostDreamy",
+        "artist": "BIGBANG",
+        "title": "봄여름가을겨울"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.902533,
+          37.515098
+        ]
+      },
+      "properties": {
+        "user_id": "glowMinty",
+        "artist": "이선희",
+        "title": "인연"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.831645,
+          37.461462
+        ]
+      },
+      "properties": {
+        "user_id": "루나Nova",
+        "artist": "비오",
+        "title": "LOVE me"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.870734,
+          37.569861
+        ]
+      },
+      "properties": {
+        "user_id": "dreamySunny164",
+        "artist": "방탄소년단",
+        "title": "작은 것들을 위한 시"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.949979,
+          37.56413
+        ]
+      },
+      "properties": {
+        "user_id": "dreamySunny",
+        "artist": "백예린",
+        "title": "그건 아마 우리의 잘못은 아닐 거야"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.017919,
+          37.637638
+        ]
+      },
+      "properties": {
+        "user_id": "bubbleBubble",
+        "artist": "뉴진스",
+        "title": "ETA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.829202,
+          37.56684
+        ]
+      },
+      "properties": {
+        "user_id": "dreamyVelvet",
+        "artist": "아이브",
+        "title": "Kitsch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9551,
+          37.623718
+        ]
+      },
+      "properties": {
+        "user_id": "bubbleBubble",
+        "artist": "임영웅",
+        "title": "사랑은 늘 도망가"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.038551,
+          37.61783
+        ]
+      },
+      "properties": {
+        "user_id": "시크Bubble",
+        "artist": "지코",
+        "title": "새삥"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.889962,
+          37.59701
+        ]
+      },
+      "properties": {
+        "user_id": "시크플레이어836",
+        "artist": "태연",
+        "title": "사계"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.990037,
+          37.483714
+        ]
+      },
+      "properties": {
+        "user_id": "루나Bubble357",
+        "artist": "윤하",
+        "title": "사건의 지평선"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.016576,
+          37.506662
+        ]
+      },
+      "properties": {
+        "user_id": "novaSunny",
+        "artist": "이선희",
+        "title": "인연"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.898159,
+          37.604892
+        ]
+      },
+      "properties": {
+        "user_id": "스윗보이164",
+        "artist": "이선희",
+        "title": "인연"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.023087,
+          37.531015
+        ]
+      },
+      "properties": {
+        "user_id": "frostSugar680",
+        "artist": "이선희",
+        "title": "인연"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.010458,
+          37.467288
+        ]
+      },
+      "properties": {
+        "user_id": "모던Frost554",
+        "artist": "지코",
+        "title": "새삥"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.812541,
+          37.608132
+        ]
+      },
+      "properties": {
+        "user_id": "novaMinty",
+        "artist": "비오",
+        "title": "LOVE me"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.805906,
+          37.643004
+        ]
+      },
+      "properties": {
+        "user_id": "쿨Velvet456",
+        "artist": "세븐틴",
+        "title": "손오공"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.024265,
+          37.472196
+        ]
+      },
+      "properties": {
+        "user_id": "frostSunny656",
+        "artist": "악동뮤지션",
+        "title": "후라이의 꿈"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.987016,
+          37.53975
+        ]
+      },
+      "properties": {
+        "user_id": "스윗Nova752",
+        "artist": "르세라핌",
+        "title": "이브, 프시케 그리고 푸른 수염의 아내"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.869674,
+          37.463913
+        ]
+      },
+      "properties": {
+        "user_id": "루나Dreamy121",
+        "artist": "악동뮤지션",
+        "title": "후라이의 꿈"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.008633,
+          37.648232
+        ]
+      },
+      "properties": {
+        "user_id": "비밀짱",
+        "artist": "백예린",
+        "title": "그건 아마 우리의 잘못은 아닐 거야"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.917647,
+          37.484921
+        ]
+      },
+      "properties": {
+        "user_id": "bubbleBubble167",
+        "artist": "비오",
+        "title": "LOVE me"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.807031,
+          37.551295
+        ]
+      },
+      "properties": {
+        "user_id": "밀크Echo",
+        "artist": "이하이",
+        "title": "한숨"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.973706,
+          37.451091
+        ]
+      },
+      "properties": {
+        "user_id": "frostGlow",
+        "artist": "뉴진스",
+        "title": "ETA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.974482,
+          37.615744
+        ]
+      },
+      "properties": {
+        "user_id": "sugarVelvet",
+        "artist": "이선희",
+        "title": "인연"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.989831,
+          37.565522
+        ]
+      },
+      "properties": {
+        "user_id": "frostMinty",
+        "artist": "비오",
+        "title": "LOVE me"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.843808,
+          37.643471
+        ]
+      },
+      "properties": {
+        "user_id": "스윗Sunny",
+        "artist": "태연",
+        "title": "사계"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.835713,
+          37.56641
+        ]
+      },
+      "properties": {
+        "user_id": "루나Dreamy",
+        "artist": "르세라핌",
+        "title": "이브, 프시케 그리고 푸른 수염의 아내"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.047731,
+          37.606109
+        ]
+      },
+      "properties": {
+        "user_id": "쿨보이",
+        "artist": "방탄소년단",
+        "title": "작은 것들을 위한 시"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.890573,
+          37.519717
+        ]
+      },
+      "properties": {
+        "user_id": "모던Velvet",
+        "artist": "비오",
+        "title": "LOVE me"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.918933,
+          37.492361
+        ]
+      },
+      "properties": {
+        "user_id": "모던플레이어",
+        "artist": "비오",
+        "title": "LOVE me"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.882131,
+          37.513545
+        ]
+      },
+      "properties": {
+        "user_id": "sunnyBubble",
+        "artist": "세븐틴",
+        "title": "손오공"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.857843,
+          37.608517
+        ]
+      },
+      "properties": {
+        "user_id": "루나Minty",
+        "artist": "나얼",
+        "title": "같은 시간 속의 너"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.981837,
+          37.472132
+        ]
+      },
+      "properties": {
+        "user_id": "블루Nova",
+        "artist": "BIGBANG",
+        "title": "봄여름가을겨울"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.851865,
+          37.592505
+        ]
+      },
+      "properties": {
+        "user_id": "밀크짱",
+        "artist": "임영웅",
+        "title": "사랑은 늘 도망가"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.948131,
+          37.499918
+        ]
+      },
+      "properties": {
+        "user_id": "시크베베",
+        "artist": "아이유",
+        "title": "밤편지"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.893693,
+          37.643791
+        ]
+      },
+      "properties": {
+        "user_id": "스윗Sunny",
+        "artist": "윤하",
+        "title": "사건의 지평선"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.853776,
+          37.567227
+        ]
+      },
+      "properties": {
+        "user_id": "novaSugar",
+        "artist": "세븐틴",
+        "title": "손오공"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.94767,
+          37.617041
+        ]
+      },
+      "properties": {
+        "user_id": "mintyBubble",
+        "artist": "이무진",
+        "title": "신호등"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.930183,
+          37.473438
+        ]
+      },
+      "properties": {
+        "user_id": "스윗버터973",
+        "artist": "이무진",
+        "title": "신호등"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.974067,
+          37.584105
+        ]
+      },
+      "properties": {
+        "user_id": "쿨스타23",
+        "artist": "악동뮤지션",
+        "title": "후라이의 꿈"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.895616,
+          37.570979
+        ]
+      },
+      "properties": {
+        "user_id": "glowNova748",
+        "artist": "지코",
+        "title": "새삥"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.866957,
+          37.566186
+        ]
+      },
+      "properties": {
+        "user_id": "모던Dreamy",
+        "artist": "세븐틴",
+        "title": "손오공"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.856801,
+          37.572248
+        ]
+      },
+      "properties": {
+        "user_id": "크림Sunny",
+        "artist": "태연",
+        "title": "사계"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.011632,
+          37.543186
+        ]
+      },
+      "properties": {
+        "user_id": "블루Dreamy726",
+        "artist": "이선희",
+        "title": "인연"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.832955,
+          37.572391
+        ]
+      },
+      "properties": {
+        "user_id": "스윗Sugar",
+        "artist": "르세라핌",
+        "title": "이브, 프시케 그리고 푸른 수염의 아내"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.991107,
+          37.493082
+        ]
+      },
+      "properties": {
+        "user_id": "echoSunny351",
+        "artist": "뉴진스",
+        "title": "ETA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.948298,
+          37.506183
+        ]
+      },
+      "properties": {
+        "user_id": "쿨링672",
+        "artist": "태연",
+        "title": "사계"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.801978,
+          37.583288
+        ]
+      },
+      "properties": {
+        "user_id": "novaSunny",
+        "artist": "나얼",
+        "title": "같은 시간 속의 너"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.944555,
+          37.470973
+        ]
+      },
+      "properties": {
+        "user_id": "sunnyNova",
+        "artist": "나얼",
+        "title": "같은 시간 속의 너"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8628,
+          37.531647
+        ]
+      },
+      "properties": {
+        "user_id": "sugarMinty466",
+        "artist": "백예린",
+        "title": "그건 아마 우리의 잘못은 아닐 거야"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.868992,
+          37.476725
+        ]
+      },
+      "properties": {
+        "user_id": "frostBubble",
+        "artist": "나얼",
+        "title": "같은 시간 속의 너"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97506,
+          37.566756
+        ]
+      },
+      "properties": {
+        "user_id": "밀크베베",
+        "artist": "방탄소년단",
+        "title": "작은 것들을 위한 시"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.976834,
+          37.568852
+        ]
+      },
+      "properties": {
+        "user_id": "novaSunny842",
+        "artist": "뉴진스",
+        "title": "ETA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.971951,
+          37.566288
+        ]
+      },
+      "properties": {
+        "user_id": "비밀Frost",
+        "artist": "김광석",
+        "title": "서른 즈음에"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.973054,
+          37.569269
+        ]
+      },
+      "properties": {
+        "user_id": "루나Dreamy566",
+        "artist": "르세라핌",
+        "title": "이브, 프시케 그리고 푸른 수염의 아내"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978846,
+          37.568569
+        ]
+      },
+      "properties": {
+        "user_id": "러블리Frost972",
+        "artist": "아이유",
+        "title": "밤편지"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.979078,
+          37.56787
+        ]
+      },
+      "properties": {
+        "user_id": "블루버터",
+        "artist": "백예린",
+        "title": "그건 아마 우리의 잘못은 아닐 거야"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.971249,
+          37.568009
+        ]
+      },
+      "properties": {
+        "user_id": "러블리Dreamy",
+        "artist": "태연",
+        "title": "사계"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.975732,
+          37.56707
+        ]
+      },
+      "properties": {
+        "user_id": "시크Frost",
+        "artist": "윤하",
+        "title": "사건의 지평선"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978765,
+          37.563901
+        ]
+      },
+      "properties": {
+        "user_id": "sunnyEcho844",
+        "artist": "악동뮤지션",
+        "title": "후라이의 꿈"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.971421,
+          37.56607
+        ]
+      },
+      "properties": {
+        "user_id": "시크Dreamy767",
+        "artist": "태연",
+        "title": "사계"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.976025,
+          37.569658
+        ]
+      },
+      "properties": {
+        "user_id": "시크Echo",
+        "artist": "악동뮤지션",
+        "title": "후라이의 꿈"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.975337,
+          37.566701
+        ]
+      },
+      "properties": {
+        "user_id": "frostFrost",
+        "artist": "아이브",
+        "title": "Kitsch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.976024,
+          37.567283
+        ]
+      },
+      "properties": {
+        "user_id": "루나Sugar",
+        "artist": "비오",
+        "title": "LOVE me"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.970321,
+          37.564353
+        ]
+      },
+      "properties": {
+        "user_id": "echoVelvet",
+        "artist": "이무진",
+        "title": "신호등"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.971015,
+          37.568607
+        ]
+      },
+      "properties": {
+        "user_id": "모던플레이어121",
+        "artist": "BIGBANG",
+        "title": "봄여름가을겨울"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.972947,
+          37.566746
+        ]
+      },
+      "properties": {
+        "user_id": "크림스타482",
+        "artist": "임영웅",
+        "title": "사랑은 늘 도망가"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.979725,
+          37.569043
+        ]
+      },
+      "properties": {
+        "user_id": "모던Minty",
+        "artist": "태연",
+        "title": "사계"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.971976,
+          37.566429
+        ]
+      },
+      "properties": {
+        "user_id": "스윗Dreamy996",
+        "artist": "지코",
+        "title": "새삥"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97143,
+          37.564938
+        ]
+      },
+      "properties": {
+        "user_id": "밀크Frost",
+        "artist": "세븐틴",
+        "title": "손오공"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.974245,
+          37.564601
+        ]
+      },
+      "properties": {
+        "user_id": "블루플레이어",
+        "artist": "뉴진스",
+        "title": "ETA"
+      }
+    }
+  ]
+}
