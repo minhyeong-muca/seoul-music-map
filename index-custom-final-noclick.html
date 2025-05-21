@@ -222,34 +222,5 @@
             activeLabel = label;
             activeMarker = marker;
     </script>
-  
-  <img id="overlayImage" src="https://minhyeong-muca.github.io/seoul-music-map/Map_Zoom.png" style="
-    display: none;
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    object-fit: cover;
-  " />
-
-  <script>
-    const overlay = document.getElementById('overlayImage');
-
-    function handleOverlayZoom() {
-      const zoom = map.getZoom();
-      if (zoom >= 16) {
-        overlay.style.display = 'block';
-        map.getCanvas().style.opacity = 0;
-      } else {
-        overlay.style.display = 'none';
-        map.getCanvas().style.opacity = 1;
-      }
-    }
-
-    map.on('zoom', handleOverlayZoom);
-    handleOverlayZoom(); // 초기 호출
-  </script>
-
 </body>
 </html>
