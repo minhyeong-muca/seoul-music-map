@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Mapbox – 클릭 시 텍스트 표시</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+  <style>
+    body { margin: 0; padding: 0; }
+    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+  </style>
+</head>
+<body>
+<div id="map"></div>
+
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoibWluaHllb25na2ltIiwiYSI6ImNtYWRsNzA5ZTBld3Iya29uNG80MnFhZnMifQ.JwmMpGd-0shCxK5Q0JqgAQ';
+
+  const map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/minhyeongkim/cmaw5y625000h01rc0u1ge9rv',
+    center: [126.9779692, 37.5665],
+    zoom: 13,
+    pitch: 60,
+    bearing: -20,
+    antialias: true
+  });
+
+  map.on('load', () => {
+    const icons = [
+      { id: 'icon-gwanghwamun', url: 'https://i.imgur.com/8WyAzZ1.png' },
+      { id: 'icon-cityhall', url: 'https://i.imgur.com/Fh7tjn4.png' },
+      { id: 'icon-namsan', url: 'https://i.imgur.com/nj8Zd1G.png' },
+      { id: 'icon-jonggak', url: 'https://i.imgur.com/pJReNhS.png' },
+      { id: 'icon-gyeongbokgung', url: 'https://i.imgur.com/0Gx8yAp.png' },
+      { id: 'icon-myeongdong', url: 'https://i.imgur.com/h6u4en9.png' },
+    ];
+
+    let loadedCount = 0;
+    icons.forEach(icon => {
+      map.loadImage(icon.url, (error, image) => {
+        if (error) throw error;
+        map.addImage(icon.id, image);
+        loadedCount++;
+        if (loadedCount === icons.length) addLandmarks();
+      });
+    });
+
+    function addLandmarks() {
+      const landmarks = [
+        {
+          id: 'gwanghwamun',
+          name: '광화문',
+          coords: [126.9779692, 37.5711632],
+          icon: 'icon-gwanghwamun'
+        },
+        {
+          id: 'cityhall',
+          name: '서울시청',
+          coords: [126.9783881, 37.5666103],
+          icon: 'icon-cityhall'
+        },
+        {
+          id: 'namsan',
+          name: '남산타워',
+          coords: [126.9882056, 37.5511694],
+          icon: 'icon-namsan'
+        },
+        {
+          id: 'jonggak',
+          name: '종각역',
+          coords: [126.9830922, 37.5703771],
+          icon: 'icon-jonggak'
+        },
+        {
+          id: 'gyeongbokgung',
+          name: '경복궁',
+          coords: [126.976859, 37.579617],
+          icon: 'icon-gyeongbokgung'
+        },
+        {
+          id: 'myeongdong',
+          name: '명동',
+          coords: [126.9853025, 37.5637572],
+          icon: 'icon-myeongdong'
+        }
+      ];
+
+      landmarks.forEach(place => {
+        map.addSource(`${place.id}-source`, {
+          type: 'geojson',
+          data: {
+            type: 'Feature',
+            geometry: {
+              type: 'Point',
+              coordinates: place.coords
+            }
+          }
+        });
+
+        map.addLayer({
+          id: `${place.id}-layer`,
+          type: 'symbol',
+          source: `${place.id}-source`,
+          layout: {
+            'icon-image': place.icon,
+            'icon-size': 0.2,
+            'icon-anchor': 'bottom'
+          }
+        });
+
+        // 마커 클릭 시 텍스트 표시
+        map.on('click', `${place.id}-layer`, () => {
+          new mapboxgl.Popup()
+            .setLngLat(place.coords)
+            .setHTML(`<strong>${place.name}</strong>`)
+            .addTo(map);
+        });
+
+        // 마우스 커서 손가락 모양으로 변경
+        map.on('mouseenter', `${place.id}-layer`, () => {
+          map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', `${place.id}-layer`, () => {
+          map.getCanvas().style.cursor = '';
+        });
+      });
+    }
+  });
+</script>
+</body>
+</html>
